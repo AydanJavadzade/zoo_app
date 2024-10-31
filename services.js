@@ -54,3 +54,17 @@ export const editAnimal = (req, res) => {
         res.status(200).send({ message: "heyvanin melumatlari deyisildi" })
     }
 }
+
+export const modifyAnimal = (req, res) => {
+    const id = req.params.id
+
+    const findIndexAnimal = animals.findIndex((a) => a.id === id)
+    if (findIndexAnimal === -1) {
+        res.status(404).send("bele heyvan yoxdu")
+    } else {
+        animals[findIndexAnimal] = { ...animals[findIndexAnimal], ...req.body }
+
+        writeFileSync("./db.json", JSON.stringify(animals, null, 2))
+        res.status(200).send({ message: "heyvanin verilen melumatlari deyisildi" })
+    }
+}

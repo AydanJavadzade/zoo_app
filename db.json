@@ -14,8 +14,8 @@
   {
     "id": "2",
     "name": "Elephant",
-    "species": "Elephas",
-    "age": 10,
+    "species": "ElephasElephas",
+    "age": 15,
     "gender": "Female",
     "habitat": "Forest",
     "diet": "Herbivore",

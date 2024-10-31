@@ -1,6 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
-import { addNewAnimal, deleteAnimal, editAnimal, getAllAnimals, getAnimalById } from "./services.js"
+import { addNewAnimal, deleteAnimal, editAnimal, getAllAnimals, getAnimalById, modifyAnimal } from "./services.js"
 import bodyParser from "body-parser"
 
 const app=express()
@@ -13,6 +13,7 @@ app.get("/animals/:id",getAnimalById)
 app.post("/animals",addNewAnimal)
 app.delete("/animals/:id",deleteAnimal)
 app.put("/animals/:id",editAnimal)
+app.patch("/animals/:id",modifyAnimal)
 
 
 app.listen(PORT,()=>{
