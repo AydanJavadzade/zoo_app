@@ -1,0 +1,62 @@
+[
+  {
+    "id": "e499eb3e-9ce7-4958-962d-5ff1a9751869",
+    "name": "Lion",
+    "species": "Panthera",
+    "age": 5,
+    "gender": "Male",
+    "habitat": "Savannah",
+    "diet": "Carnivore",
+    "weight": 190,
+    "height": 1.2,
+    "health_status": "Healthy"
+  },
+  {
+    "id": "2",
+    "name": "Elephant",
+    "species": "Elephas",
+    "age": 10,
+    "gender": "Female",
+    "habitat": "Forest",
+    "diet": "Herbivore",
+    "weight": 6000,
+    "height": 3,
+    "health_status": "Healthy"
+  },
+  {
+    "id": "3",
+    "name": "Giraffe",
+    "species": "Giraffa camelopardalis",
+    "age": 7,
+    "gender": "Male",
+    "habitat": "Savannah",
+    "diet": "Herbivore",
+    "weight": 800,
+    "height": 5.5,
+    "health_status": "Healthy"
+  },
+  {
+    "id": "4",
+    "name": "Crocodile",
+    "species": "Crocodylus niloticus",
+    "age": 15,
+    "gender": "Male",
+    "habitat": "Wetlands",
+    "diet": "Carnivore",
+    "weight": 450,
+    "height": 2,
+    "health_status": "Healthy"
+  },
+  {
+    "id": "5",
+    "name": "Penguin",
+    "species": "Aptenodytes forsteri",
+    "age": 4,
+    "gender": "Female",
+    "habitat": "Antarctica",
+    "diet": "Carnivore",
+    "weight": 35,
+    "height": 1.1,
+    "health_status": "Healthy"
+  }
+]
